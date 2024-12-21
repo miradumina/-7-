@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #0057B7 50%, #FFD700 50%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: calc(33.333vh - 50px) calc(50% - 250px) calc(50vh - 33.333vh) calc(50% - 250px);
+    height: 100px;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+  
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+  
+.main {
+    text-align: center;
+    height: 150px;
+}
+  
+.footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+.header-title a {
+    color: white;
+    text-decoration: none;
+}
+
+.monument .gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.monument .gallery-images {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.monument .gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.monument .gallery-images img:hover {
+    transform: scale(1.1);
+}
+
+.monument {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    width: 1000px;
+    margin: 40px calc(50% - 500px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.monument h2, .monument h3 {
+    color: #333;
+}
